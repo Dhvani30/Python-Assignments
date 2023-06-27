@@ -21,7 +21,9 @@ elif op == 3:
 elif op == 4:
     num1 = float(input("Enter first number: "))
     num2 = float(input("Enter second number: "))
-    if num2 == 0:
-        print("Cannot divide by zero!")        
+    if num2 != 0:
+        print("Result of dividing two numbers is:", num1 / num2)
+    else:
+        print("Cannot divide by zero!")
 else:
     print("Invalid operation")
